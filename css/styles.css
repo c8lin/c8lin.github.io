@@ -1,37 +1,87 @@
 body {
   background-color: #f4f4f4;
   color:#555555;
-  font-family: Verdana, Tahoma, Arial;
-
+  font-family: Tahoma, Verdana, Arial;
+  line-height: 1.6em;
 }
 
 /*no underlines or blue color for links*/
 a {
 	text-decoration: none;
-	color: #000;
+	color: lightseagreen;
+	font-weight: 500;
 }
 
 a:hover {
 	color: orange;
 }
 
+h3 {
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+.clr {
+	clear: both;
+}
+
 .container {
 	width: 80%;
 	margin: auto;
 }
-/* footer details */
+
+.navbar {
+	width: 100px;
+	height: 200px;
+	border: 1px solid;
+	position: relative;
+	margin-bottom: -20%;
+	margin-left: 35%;
+	
+}
+
+.navbar ul {
+	position: relative;
+	list-style: none;
+	text-align: left;
+	padding-left: 5px;
+	line-height: 2em;
+}
+
 .footer {
-	position: absolute;
-	left: 0; 
-	right: 0;
-	bottom: 10;
 	text-align: center;
+	padding: 0px;
+	font-size: 15;
+	clear: both;
+}
+
+.footer p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
 }
 
 #main-header {
+	letter-spacing: 2px; 
+	margin: 50px;
 	text-align: center;
+}
+
+#bio {
+	float: left;
+	width: 50%;
+}
+
+#nav-and-pic {
+	float: right;
+	margin-right: -5%;
+	width: 50%;
 }
 
 #self-portrait {
 	float: right;
+	margin-left: -95%;
+}
+
+#cpyrt {
+	color: lightseagreen;
 }
