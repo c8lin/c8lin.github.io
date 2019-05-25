@@ -31,3 +31,7 @@ a:hover {
 #main-header {
 	text-align: center;
 }
+
+#self-portrait {
+	float: right;
+}
