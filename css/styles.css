@@ -1,0 +1,33 @@
+body {
+  background-color: #f4f4f4;
+  color:#555555;
+  font-family: Verdana, Tahoma, Arial;
+
+}
+
+/*no underlines or blue color for links*/
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: orange;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+/* footer details */
+.footer {
+	position: absolute;
+	left: 0; 
+	right: 0;
+	bottom: 10;
+	text-align: center;
+}
+
+#main-header {
+	text-align: center;
+}
